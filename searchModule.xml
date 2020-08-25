@@ -1,0 +1,27 @@
+<suite name ="searchResult-Module" parallel = "tests">
+    <test name = "searchResult-Java">
+        <parameter name="keyword" value ="java" />
+        <classes>
+            <class name = "com.duckdickgo.test.searchResultsTest" />
+        </classes>
+    </test>
+    <test name = "searchResult-qa">
+        <parameter name="keyword" value ="qa" />
+        <classes>
+            <class name = "com.duckdickgo.test.searchResultsTest" />
+        </classes>
+    </test>
+    <test name = "searchResult-webdriver">
+        <parameter name="keyword" value ="webdriver" />
+        <classes>
+            <class name = "com.duckdickgo.test.searchResultsTest" />
+        </classes>
+    </test>
+    <test name = "searchResult-docker">
+        <parameter name="keyword" value ="docker" />
+        <classes>
+            <class name = "com.duckdickgo.test.searchResultsTest" />
+        </classes>
+    </test>
+
+</suite>
